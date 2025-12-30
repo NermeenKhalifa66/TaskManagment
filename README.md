@@ -14,6 +14,7 @@ Users can register, log in, and manage their own tasks.
 Nermeen Khalifa, a .NET developer currently learning Node.js and Express, with React completed. 
 
 API Endpoints
+
 Auth
 - POST /api/auth/register
 - POST /api/auth/login
@@ -24,16 +25,15 @@ Tasks
 - PUT /api/tasks/:id
 - DELETE /api/tasks/:id
 - 
-## Setup
+## Backend, Frontend Setup
 
-### Backend
 ```bash
 cd backend
 npm install
 npm start
 
-Frontend 
 cd frontend
 npm install
 npm start
+
 
